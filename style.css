@@ -7,15 +7,7 @@ body {
 main {
   flex: 1 0 auto;
 }
-.form,h1{
-    text-align: center;
-  }
-  #numStart,#numEnd{
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
-  }
-  
+
   .table{
       font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
