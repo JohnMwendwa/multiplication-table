@@ -1,6 +1,6 @@
 
 const table = document.querySelector('.table');
-const form = document.querySelector('.form-input').addEventListener('submit',printTable)
+const form = document.querySelector('form').addEventListener('submit',printTable)
 const inputs = document.querySelectorAll('input')
 
 //Print a default table when the page loads
