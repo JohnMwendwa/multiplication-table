@@ -35,8 +35,33 @@
 
 <main>
 <div class="container">
-    <h2>FAQS</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatem quia earum blanditiis. Sed praesentium rerum adipisci ut voluptatem dolores?</p>
+ <h2>FAQS</h2>
+ <ul class="collapsible">
+     <li>
+         <div class="collapsible-header">
+             <i class="material-icons">help</i>How do you use Multiplication tables 
+         </div>
+         <div class="collapsible-body">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero natus mollitia porro dolorem repellendus iste, debitis voluptatem a ipsa recusandae ?</p>
+         </div>
+     </li>
+     <li>
+         <div class="collapsible-header">
+             <i class="material-icons">help</i>Is this a government funded project
+         </div>
+         <div class="collapsible-body">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo exercitationem quis vitae voluptatibus quae nemo ab non incidunt in quidem.</p>
+         </div>
+     </li>
+     <li>
+        <div class="collapsible-header">
+            <i class="material-icons">help</i>Can anyone become a partner
+        </div>
+        <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, qui? Quaerat, unde? Modi recusandae aliquid minima perferendis accusantium fuga sit.</p>
+        </div>
+    </li>
+ </ul>
 </div>
 </main>
 
@@ -76,6 +101,7 @@
   <script>
       $(document).ready(function(){
           $(".sidenav").sidenav();
+          $('.collapsible').collapsible()
       })
   </script>
  
