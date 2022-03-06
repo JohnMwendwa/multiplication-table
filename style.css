@@ -21,3 +21,7 @@ main {
   footer{
     margin-top: 20px;
   }
+
+  .slider .indicators .indicator-item.active{
+background-color: red;
+  }
